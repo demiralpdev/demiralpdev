@@ -1,13 +1,6 @@
 <div align="center">
 
-```text
-██████╗ ███████╗███╗   ███╗██████╗  █████╗ ██╗     ██████╗ ██████╗ ███████╗██╗   ██╗
-██╔══██╗██╔════╝████╗ ████║██╔══██╗██╔══██╗██║     ██╔══██╗██╔══██╗██╔════╝██║   ██║
-██║  ██║█████╗  ██╔████╔██║██████╔╝███████║██║     ██████╔╝██║  ██║█████╗  ██║   ██║
-██║  ██║██╔══╝  ██║╚██╔╝██║██╔══██╗██╔══██║██║     ██╔═══╝ ██║  ██║██╔══╝  ╚██╗ ██╔╝
-██████╔╝███████╗██║ ╚═╝ ██║██║  ██║██║  ██║███████╗██║     ██████╔╝███████╗ ╚████╔╝ 
-╚═════╝ ╚══════╝╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚═╝     ╚═════╝ ╚══════╝  ╚═══╝  
-```
+<img src="assets/wordmarks/demiralpdev-block.png" width="460" alt="DEMIRALPDEV" />
 
 ### Creative Developer & Cyber-Architect • AI Builder
 
@@ -15,8 +8,6 @@
 [![GitHub](https://img.shields.io/badge/GitHub-demiralpdev-080808?style=flat-square&logo=github&logoColor=white)](https://github.com/demiralpdev)
 [![Status](https://img.shields.io/badge/Status-ONLINE-080808?style=flat-square&logoColor=74e48b&labelColor=080808&color=74e48b)](https://demiralpdev.tech)
 [![Mail](https://img.shields.io/badge/Contact-info%40demiralpdev.tech-080808?style=flat-square&logo=maildotru&logoColor=white)](mailto:info@demiralpdev.tech)
-
----
 
 </div>
 
@@ -27,15 +18,11 @@ Role    : Creative Developer & AI Builder
 Skills  : Android Studio • C# • .NET • MySQL • Python • JavaScript • HTML • CSS
 ```
 
----
-
 ### ⚡ Featured Projects
 
-- 🧠 **[Caphlon](https://caphlon.dev)** — 6.87 GiB GGUF build of Qwen 3.8 27B running locally within 8 GB RAM on consumer hardware.
-- 🔐 **[.RISE](https://riseproof.me)** — Open media formats (`.rise` / `.rvid`) with built-in cryptographic proof of origin sealed at shutter time.
-- 📊 **[GPU Pusula / 2elAnaliz](https://2elanaliz-panel.vercel.app)** — Real-time secondary GPU market analysis and value index engine.
-
----
+- 🧠 **[Caphlon](https://caphlon.dev)** — 6.87 GiB GGUF build of Qwen 3.8 27B running locally on 8 GB RAM.
+- 🔐 **[.RISE](https://riseproof.me)** — Cryptographic proof of origin (.rise / .rvid) sealed at capture time.
+- 📊 **[GPU Pusula / 2elAnaliz](https://2elanaliz-panel.vercel.app)** — Real-time secondary GPU market analysis and value index.
 
 <div align="center">
 
@@ -48,7 +35,7 @@ Skills  : Android Studio • C# • .NET • MySQL • Python • JavaScript •
 <img src="https://img.shields.io/badge/HTML5-080808?style=flat-square&logo=html5&logoColor=E34F26" alt="HTML5" />
 <img src="https://img.shields.io/badge/CSS3-080808?style=flat-square&logo=css3&logoColor=1572B6" alt="CSS3" />
 
-<br/><br/>
+---
 
 **[🌐 demiralpdev.tech](https://demiralpdev.tech)** • **[✉️ info@demiralpdev.tech](mailto:info@demiralpdev.tech)**
 
