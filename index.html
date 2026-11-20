@@ -1,0 +1,627 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#080808" />
+  <meta name="description" content="DemiralPDev — creative developer, AI builder ve dijital projeler." />
+  <title>DemiralPDev — Creative Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="site-shell" id="home" data-view="home">
+    <video class="hero-video" autoplay muted loop playsinline preload="metadata" poster="assets/video/great-wave-poster.jpg" aria-hidden="true">
+      <source src="assets/video/great-wave-kanagawa.mp4" type="video/mp4" />
+    </video>
+    <div class="video-shade" aria-hidden="true"></div>
+    <div class="video-frame" aria-hidden="true"></div>
+    <div class="scanlines" aria-hidden="true"></div>
+    <div class="wave-ascii" aria-hidden="true"><span>&lt;&lt;&lt;◇◇&gt;&gt;&gt;</span><span>&lt;o&gt;&lt;o&gt;&lt;&gt;</span><span>&lt;&lt;◇&gt;&gt;</span></div>
+    <div class="wave-ascii wave-ascii-right" aria-hidden="true"><span>&lt;&lt;&lt;◇&gt;&gt;&gt;</span><span>&lt;o&gt;&lt;&gt;</span></div>
+    <div class="wave-bubbles" aria-hidden="true"><i>o</i><i>°</i><i>0</i><i>o</i></div>
+    <img class="sea-floor" src="assets/video/coral-reef-overlay.png" alt="" aria-hidden="true" />
+
+    <header class="topbar">
+      <nav class="nav" id="site-nav" aria-label="Ana menü">
+        <a href="#home" data-view="home" class="is-active" aria-current="page"><span>[</span> HOME <span>]</span></a>
+        <a href="#projects" data-view="projects"><span>[</span> PROJECTS <span>]</span></a>
+        <a href="#github" data-view="github"><span>[</span> GITHUB <span>]</span></a>
+        <a href="mailto:info@demiralpdev.tech"><span>[</span> CONTACT <span>]</span></a>
+      </nav>
+      <button class="menu-toggle" aria-label="Menüyü aç" aria-expanded="false" aria-controls="site-nav"><i></i><i></i></button>
+    </header>
+
+    <div class="top-readout" aria-hidden="true">
+      <span>SYS_LOAD: <b>CALM</b></span><span>DEPTH: 400m</span><span>SEA_PRESSURE: 2.1 ATM</span>
+    </div>
+
+    <section class="console-panel" aria-labelledby="hero-title">
+      <div class="console-heading">
+        <div class="wordmark-wrap">
+          <h1 id="hero-title" class="wordmark"><span class="sr-only">DEMIRALPDEV</span><img class="wordmark-variant active" src="assets/wordmarks/demiralpdev-scanline.png" alt="" /><img class="wordmark-variant block-style" src="assets/wordmarks/demiralpdev-block.png" alt="" hidden /><img class="wordmark-variant" src="assets/wordmarks/demiralpdev-outline.png" alt="" hidden /></h1>
+          <div class="identity-meta"><p class="domain-line">demiralpdev.tech</p><div class="build-info"><span>[ DEV_ENV_v1.0 ]</span><span>COORD: 41.0082° N, 28.9784° E</span></div></div>
+        </div>
+      </div>
+
+      <div class="terminal-block">
+        <div class="terminal-line"><span>$ whoami</span><span class="online">[STATUS: ONLINE]</span></div>
+        <p>Name: <strong>DEMİRALP</strong></p>
+        <p>Role: <strong>Creative Developer &amp; Cyber-ArchitecT</strong></p>
+      </div>
+
+      <div class="terminal-block contact-block">
+        <p class="command">$ cat contact.md</p>
+        <p>Mail: <a id="contact" href="mailto:info@demiralpdev.tech">info@demiralpdev.tech</a></p>
+        <p>Github: <a href="https://github.com/demiralpdev" target="_blank" rel="noreferrer">github.com/demiralpdev</a></p>
+      </div>
+
+      <div class="terminal-block project-terminal" id="projects">
+        <p class="command">$ ls /projects</p>
+        <a class="project-row" href="https://riseproof.me" target="_blank" rel="noreferrer" data-project="riseproof"><span>– riseproof.me (Cryptographic CLI)</span><b>[ACTIVE]</b></a>
+        <a class="project-row" href="https://caphlon.dev" target="_blank" rel="noreferrer" data-project="caphlon"><span>– caphlon.dev (Llama edge CPU)</span><b>[ACTIVE]</b></a>
+        <p class="prompt-line">$ <span class="cursor">_</span></p>
+      </div>
+
+      <div class="terminal-graph" aria-hidden="true">
+        <svg viewBox="0 0 760 115" preserveAspectRatio="none">
+          <defs><pattern id="graph-dots" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(12)"><circle cx="2" cy="2" r="1.1" fill="#d0d0d0" fill-opacity=".56"/><circle cx="9" cy="5" r=".65" fill="#d0d0d0" fill-opacity=".3"/><circle cx="5" cy="10" r="1.35" fill="#d0d0d0" fill-opacity=".42"/></pattern></defs>
+          <g class="graph-grid"><path d="M0 20H760M0 45H760M0 70H760M0 95H760M50 0V115M100 0V115M150 0V115M200 0V115M250 0V115M300 0V115M350 0V115M400 0V115M450 0V115M500 0V115M550 0V115M600 0V115M650 0V115M700 0V115" /></g>
+          <path class="graph-wave" d="M0 75 15 73 28 77 43 71 55 75 69 68 82 73 95 64 107 70 119 67 132 79 145 73 157 76 171 43 183 83 197 74 210 78 225 69 237 72 251 59 264 68 276 31 290 80 304 70 317 74 330 67 344 73 356 52 370 70 384 63 398 75 411 68 425 73 440 58" />
+          <path class="graph-hill" d="M590 115 620 91 650 77 680 57 710 39 760 12V115Z" />
+          <circle class="graph-bubble" cx="676" cy="72" r="4"/><circle class="graph-bubble" cx="700" cy="48" r="3"/><circle class="graph-bubble" cx="720" cy="67" r="5"/><circle class="graph-bubble" cx="741" cy="42" r="2.5"/><circle class="graph-bubble" cx="744" cy="91" r="3.5"/>
+          <text x="4" y="12">Y</text><text x="18" y="108">L</text><text x="168" y="37">t.j</text><text x="198" y="107">/ V.9,2.3</text><text x="385" y="108">-1.110.00</text>
+        </svg>
+      </div>
+    </section>
+
+    <section class="stage-panel" id="stage-panel" hidden aria-live="polite">
+      <div class="stage-view" id="view-projects" hidden>
+        <div class="stage-head">
+          <div class="stage-title"><span>$ ls /projects --preview</span><span class="stage-badge">[ 3 DEPLOYED ]</span></div>
+          <div class="stage-actions"><button type="button" class="stage-close" data-close-stage>[ × HOME ]</button></div>
+        </div>
+        <div class="project-cards" id="project-cards"></div>
+        <div class="preview-stage">
+          <div class="preview-bar">
+            <span class="preview-url" id="preview-url">https://riseproof.me</span>
+            <div class="preview-bar-right">
+              <span class="preview-live">[ LIVE_UI ]</span>
+              <a class="preview-open" id="preview-open" href="https://riseproof.me" target="_blank" rel="noreferrer">[ OPEN ↗ ]</a>
+            </div>
+          </div>
+          <div class="preview-viewport" id="preview-viewport">
+            <iframe class="preview-frame" id="project-preview-frame" title="Live project preview" loading="lazy" referrerpolicy="no-referrer"></iframe>
+            <div class="preview-overlay" id="preview-overlay" hidden>
+              <span id="preview-status-text">LOADING INTERFACE...</span>
+              <a class="stage-link" id="preview-fallback-link" href="https://riseproof.me" target="_blank" rel="noreferrer">[ OPEN IN NEW TAB ↗ ]</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="stage-view" id="view-github" hidden>
+        <div class="stage-head">
+          <div class="stage-title"><span>$ gh status @demiralpdev</span><span class="stage-badge" id="gh-status-badge">[ LOADING... ]</span></div>
+          <div class="stage-actions">
+            <a class="stage-link" href="https://github.com/demiralpdev" target="_blank" rel="noreferrer">[ GITHUB.COM/DEMIRALPDEV ↗ ]</a>
+            <button type="button" class="stage-close" data-close-stage>[ × HOME ]</button>
+          </div>
+        </div>
+        <div class="github-scroll">
+          <div class="gh-stats">
+            <div class="gh-stat"><span>REPOS</span><strong id="gh-stat-repos">9</strong></div>
+            <div class="gh-stat"><span>CONTRIBS (1Y)</span><strong id="gh-stat-year">2541</strong></div>
+            <div class="gh-stat"><span>LAST 30D</span><strong id="gh-stat-30d">--</strong></div>
+            <div class="gh-stat"><span>FOLLOWERS</span><strong id="gh-stat-followers">4</strong></div>
+          </div>
+          <div class="gh-box">
+            <div class="gh-box-head">
+              <span>$ gh contribs --last-year</span>
+              <span class="gh-readout" id="gh-contrib-readout">Loading activity...</span>
+            </div>
+            <div class="gh-heatmap" id="gh-heatmap" role="grid" aria-label="GitHub contribution heatmap"></div>
+            <div class="gh-legend" aria-hidden="true">
+              <span>LESS</span>
+              <i style="background:#141414"></i><i style="background:#1b3d25"></i><i style="background:#2d6a3e"></i><i style="background:#4aa662"></i><i style="background:#74e48b"></i>
+              <span>MORE</span>
+            </div>
+          </div>
+          <div class="gh-cols">
+            <div class="gh-box">
+              <div class="gh-box-head"><span>$ gh repo list --sort pushed</span></div>
+              <div class="gh-list" id="gh-repos-list"></div>
+            </div>
+            <div class="gh-box">
+              <div class="gh-box-head"><span>$ git log --all -n 8</span></div>
+              <div class="gh-list" id="gh-commits-list"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="hero-footer"><span class="footer-prompt">$ <i>_</i></span><span class="footer-status"><time id="system-clock">13:35:08</time><b>|</b> SYS_LOAD <b>|</b> SYS_LOAD <b>|</b> PONG_ <b>|</b> READY_</span></footer>
+  </main>
+
+  <script>
+    const wordmarkVariants = [...document.querySelectorAll('.wordmark-variant')];
+    let currentStyle = 0;
+    window.setInterval(() => {
+      let nextStyle;
+      do { nextStyle = Math.floor(Math.random() * wordmarkVariants.length); } while (nextStyle === currentStyle);
+      wordmarkVariants[currentStyle].classList.remove('active');
+      wordmarkVariants[currentStyle].hidden = true;
+      wordmarkVariants[nextStyle].hidden = false;
+      wordmarkVariants[nextStyle].classList.add('active');
+      currentStyle = nextStyle;
+    }, 2600);
+
+    const clock = document.getElementById('system-clock');
+    const updateClock = () => { clock.textContent = new Date().toLocaleTimeString('en-GB', { hour12: false }); };
+    updateClock();
+    window.setInterval(updateClock, 1000);
+
+    const menuButton = document.querySelector('.menu-toggle');
+    const nav = document.querySelector('.nav');
+    const closeMobileMenu = () => {
+      menuButton.setAttribute('aria-expanded', 'false');
+      nav.classList.remove('nav-open');
+    };
+    menuButton.addEventListener('click', () => {
+      const open = menuButton.getAttribute('aria-expanded') !== 'true';
+      menuButton.setAttribute('aria-expanded', String(open));
+      nav.classList.toggle('nav-open', open);
+    });
+    nav.querySelectorAll('a').forEach(link => link.addEventListener('click', closeMobileMenu));
+
+    const PROJECTS = [
+      {
+        id: 'riseproof',
+        name: 'riseproof.me',
+        repoName: '.RISE',
+        tag: 'Rust / C2PA',
+        desc: 'Cryptographic proof of origin (.rise / .rvid) sealed at capture time',
+        liveUrl: 'https://riseproof.me',
+        repoUrl: 'https://github.com/demiralpdev/.RISE'
+      },
+      {
+        id: 'caphlon',
+        name: 'caphlon.dev',
+        repoName: 'Caphlon-Model',
+        tag: 'GGUF / 27B Edge',
+        desc: '6.87 GiB Qwen 3.8 27B build running locally on 8 GB RAM',
+        liveUrl: 'https://caphlon.dev',
+        repoUrl: 'https://github.com/demiralpdev/Caphlon-Model'
+      },
+      {
+        id: 'gpu-pusula',
+        name: '2elAnaliz',
+        repoName: '2elAnaliz',
+        tag: 'TypeScript / Vercel',
+        desc: 'GPU Pusula — ikinci el ekran kartı fiyat ve alınabilirlik analiz paneli',
+        liveUrl: 'https://2elanaliz-panel.vercel.app',
+        repoUrl: 'https://github.com/demiralpdev/2elAnaliz'
+      }
+    ];
+
+    const GH_CACHE_KEY = 'demiralpdev_gh_v1';
+    const GH_CACHE_TTL = 10 * 60 * 1000;
+    const GH_FALLBACK = {
+      user: { public_repos: 9, followers: 4 },
+      repos: [
+        { name: 'LeanninAi', language: 'Python', stargazers_count: 1, pushed_at: '2026-11-20T06:41:42Z', description: 'Daily autonomous AI research & training workflow.', html_url: 'https://github.com/demiralpdev/LeanninAi', homepage: '', size: 3386 },
+        { name: '.RISE', language: 'Rust', stargazers_count: 3, pushed_at: '2026-11-17T01:55:11Z', description: '.rise & .rvid — open media formats with built-in cryptographic proof of origin.', html_url: 'https://github.com/demiralpdev/.RISE', homepage: 'https://riseproof.me', size: 52564 },
+        { name: 'Caphlon-Model', language: 'HTML', stargazers_count: 19, pushed_at: '2026-10-28T10:24:08Z', description: 'A 6.87 GiB GGUF build of Qwen 3.8 27B — full 27B quality on 8 GB RAM.', html_url: 'https://github.com/demiralpdev/Caphlon-Model', homepage: 'https://demiralpdev.github.io/Caphlon-Model/', size: 33962 },
+        { name: 'promnthub', language: 'HTML', stargazers_count: 0, pushed_at: '2026-09-20T18:26:34Z', description: '', html_url: 'https://github.com/demiralpdev/promnthub', homepage: '', size: 19980 },
+        { name: 'Caphlon', language: 'TypeScript', stargazers_count: 6, pushed_at: '2026-08-08T12:30:24Z', description: '', html_url: 'https://github.com/demiralpdev/Caphlon', homepage: '', size: 846 },
+        { name: '2elAnaliz', language: 'TypeScript', stargazers_count: 0, pushed_at: '2026-08-08T12:30:23Z', description: 'GPU Pusula — ikinci el ekran kartı fiyat ve alınabilirlik analiz paneli.', html_url: 'https://github.com/demiralpdev/2elAnaliz', homepage: 'https://2elanaliz-panel.vercel.app', size: 12827 }
+      ],
+      commits: [
+        { sha: '1008242', repo: 'LeanninAi', msg: 'chore: daily ai beyin run', date: '2026-11-20T06:41:41Z', url: 'https://github.com/demiralpdev/LeanninAi/commit/1008242' },
+        { sha: 'cb91706', repo: 'LeanninAi', msg: 'chore: daily ai beyin run', date: '2026-11-19T06:53:29Z', url: 'https://github.com/demiralpdev/LeanninAi/commit/cb91706' },
+        { sha: '792d2c4', repo: 'Caphlon-Model', msg: 'perf: load order (hero+video first), smaller 1080p video, restore blocking fonts', date: '2026-10-28T10:24:05Z', url: 'https://github.com/demiralpdev/Caphlon-Model/commit/792d2c4' },
+        { sha: 'ebb29d4', repo: 'Caphlon-Model', msg: 'feat: gapless rover loop via MediaSource (native loop fallback)', date: '2026-10-27T19:10:16Z', url: 'https://github.com/demiralpdev/Caphlon-Model/commit/ebb29d4' },
+        { sha: '9616b65', repo: '.RISE', msg: 'docs: describe the Rank 1 source gate, capture_source and the code-health policy', date: '2026-10-17T13:20:18Z', url: 'https://github.com/demiralpdev/.RISE/commit/9616b65' },
+        { sha: '568624e', repo: '.RISE', msg: 'fix(bindings): stop the windows attestation from claiming VBS is running', date: '2026-10-17T13:18:44Z', url: 'https://github.com/demiralpdev/.RISE/commit/568624e' }
+      ],
+      contribs: {
+        total: { lastYear: 2541 },
+        contributions: Array.from({ length: 252 }, (_, i) => {
+          const d = new Date(Date.now() - (251 - i) * 86400000);
+          const count = (i * 7 + d.getUTCDate()) % 11;
+          return { date: d.toISOString().slice(0, 10), count, level: count === 0 ? 0 : count < 3 ? 1 : count < 6 ? 2 : count < 9 ? 3 : 4 };
+        })
+      }
+    };
+
+    const el = (tag, className, text) => {
+      const node = document.createElement(tag);
+      if (className) node.className = className;
+      if (text !== undefined && text !== null) node.textContent = String(text);
+      return node;
+    };
+
+    const isSafeHttpUrl = url => {
+      if (typeof url !== 'string' || !url.trim()) return false;
+      try {
+        const parsed = new URL(url.trim());
+        return parsed.protocol === 'https:' || parsed.protocol === 'http:';
+      } catch {
+        return false;
+      }
+    };
+
+    const formatRelTime = iso => {
+      const diffSec = Math.max(0, Math.floor((Date.now() - Date.parse(iso)) / 1000));
+      if (!Number.isFinite(diffSec)) return '';
+      if (diffSec < 3600) return `${Math.max(1, Math.floor(diffSec / 60))}m ago`;
+      if (diffSec < 86400) return `${Math.floor(diffSec / 3600)}h ago`;
+      if (diffSec < 2592000) return `${Math.floor(diffSec / 86400)}d ago`;
+      return `${Math.floor(diffSec / 2592000)}mo ago`;
+    };
+
+    const shell = document.querySelector('.site-shell');
+    const heroVideo = document.querySelector('.hero-video');
+    const stagePanel = document.getElementById('stage-panel');
+    const viewProjects = document.getElementById('view-projects');
+    const viewGithub = document.getElementById('view-github');
+    const projectCardsEl = document.getElementById('project-cards');
+    const previewUrlEl = document.getElementById('preview-url');
+    const previewOpenEl = document.getElementById('preview-open');
+    const previewFallbackEl = document.getElementById('preview-fallback-link');
+    const previewViewportEl = document.getElementById('preview-viewport');
+    const previewFrameEl = document.getElementById('project-preview-frame');
+    const previewOverlayEl = document.getElementById('preview-overlay');
+    const previewStatusTextEl = document.getElementById('preview-status-text');
+
+    let currentView = 'home';
+    let activeProjectId = PROJECTS[0].id;
+    let previewTimer = null;
+    let githubLoaded = false;
+
+    const renderProjectCards = () => {
+      projectCardsEl.replaceChildren();
+      PROJECTS.forEach(proj => {
+        const card = el('div', 'project-card' + (proj.id === activeProjectId ? ' is-active' : ''));
+        card.setAttribute('role', 'button');
+        card.tabIndex = 0;
+        card.dataset.projectId = proj.id;
+        card.setAttribute('aria-pressed', String(proj.id === activeProjectId));
+
+        const top = el('div', 'project-card-top');
+        top.append(el('strong', '', proj.name), el('span', 'project-card-status', '[LIVE]'));
+        const desc = el('p', 'project-card-desc', proj.desc);
+        const foot = el('div', 'project-card-foot');
+        foot.append(el('span', 'project-tag', proj.tag));
+
+        const links = el('div', 'project-card-links');
+        const liveA = el('a', '', 'LIVE ↗');
+        liveA.href = proj.liveUrl;
+        liveA.target = '_blank';
+        liveA.rel = 'noreferrer';
+        liveA.addEventListener('click', e => e.stopPropagation());
+
+        const repoA = el('a', '', 'GITHUB ↗');
+        repoA.href = proj.repoUrl;
+        repoA.target = '_blank';
+        repoA.rel = 'noreferrer';
+        repoA.addEventListener('click', e => e.stopPropagation());
+
+        links.append(liveA, repoA);
+        foot.append(links);
+        card.append(top, desc, foot);
+
+        const activate = () => selectProject(proj.id, true);
+        card.addEventListener('click', activate);
+        card.addEventListener('keydown', e => {
+          if (e.key === 'Enter' || e.key === ' ') {
+            e.preventDefault();
+            activate();
+          }
+        });
+        projectCardsEl.append(card);
+      });
+    };
+
+    const scalePreview = () => {
+      const vw = previewViewportEl.clientWidth;
+      const vh = previewViewportEl.clientHeight;
+      if (vw <= 0 || vh <= 0) return;
+      const scale = Math.min(1, vw / 1280);
+      previewFrameEl.style.transform = `scale(${scale})`;
+      previewFrameEl.style.height = `${Math.ceil(vh / scale)}px`;
+    };
+
+    if (typeof ResizeObserver === 'function') {
+      new ResizeObserver(scalePreview).observe(previewViewportEl);
+    }
+    window.addEventListener('resize', scalePreview);
+
+    previewFrameEl.addEventListener('load', () => {
+      if (currentView !== 'projects') return;
+      const currentSrc = previewFrameEl.getAttribute('src');
+      if (!currentSrc || currentSrc === 'about:blank') return;
+      if (previewTimer) {
+        window.clearTimeout(previewTimer);
+        previewTimer = null;
+      }
+      previewOverlayEl.hidden = true;
+    });
+
+    const selectProject = (projectId, shouldLoadFrame) => {
+      const project = PROJECTS.find(p => p.id === projectId) || PROJECTS[0];
+      activeProjectId = project.id;
+
+      projectCardsEl.querySelectorAll('.project-card').forEach(card => {
+        const isSelected = card.dataset.projectId === project.id;
+        card.classList.toggle('is-active', isSelected);
+        card.setAttribute('aria-pressed', String(isSelected));
+      });
+
+      previewUrlEl.textContent = project.liveUrl;
+      previewOpenEl.href = project.liveUrl;
+      previewFallbackEl.href = project.liveUrl;
+
+      if (shouldLoadFrame && currentView === 'projects') {
+        if (previewTimer) window.clearTimeout(previewTimer);
+        previewStatusTextEl.textContent = 'LOADING INTERFACE...';
+        previewOverlayEl.hidden = false;
+        previewFrameEl.title = `${project.name} — Live UI Preview`;
+        if (previewFrameEl.getAttribute('src') === project.liveUrl) {
+          previewOverlayEl.hidden = true;
+        } else {
+          previewFrameEl.src = project.liveUrl;
+          previewTimer = window.setTimeout(() => {
+            if (currentView === 'projects' && !previewOverlayEl.hidden) {
+              previewStatusTextEl.textContent = 'PREVIEW SLOW OR BLOCKED — OPEN DIRECT LINK';
+            }
+          }, 6000);
+        }
+        window.requestAnimationFrame(scalePreview);
+      }
+    };
+
+    const renderGithubData = (payload, badgeLabel) => {
+      document.getElementById('gh-status-badge').textContent = badgeLabel;
+      const user = payload.user || {};
+      const repos = Array.isArray(payload.repos) ? payload.repos : [];
+      const commits = Array.isArray(payload.commits) ? payload.commits : [];
+      const contribs = payload.contribs || { total: {}, contributions: [] };
+      const days = Array.isArray(contribs.contributions) ? contribs.contributions : [];
+
+      const yearTotal = typeof contribs.total?.lastYear === 'number'
+        ? contribs.total.lastYear
+        : days.reduce((acc, d) => acc + (d.count || 0), 0);
+      const last30Total = days.slice(-30).reduce((acc, d) => acc + (d.count || 0), 0);
+
+      document.getElementById('gh-stat-repos').textContent = String(user.public_repos ?? repos.length);
+      document.getElementById('gh-stat-year').textContent = String(yearTotal);
+      document.getElementById('gh-stat-30d').textContent = String(last30Total);
+      document.getElementById('gh-stat-followers').textContent = String(user.followers ?? 0);
+
+      const readoutEl = document.getElementById('gh-contrib-readout');
+      const defaultReadout = `${yearTotal} contribs (1y) • ${last30Total} in last 30d`;
+      readoutEl.textContent = defaultReadout;
+
+      const heatmapEl = document.getElementById('gh-heatmap');
+      heatmapEl.replaceChildren();
+      const weeks = window.innerWidth <= 560 ? 24 : 36;
+      const sliceLen = weeks * 7;
+      let windowDays = days.slice(-sliceLen);
+      const firstSun = windowDays.findIndex(d => d?.date && new Date(d.date + 'T00:00:00Z').getUTCDay() === 0);
+      if (firstSun > 0 && firstSun < 7) {
+        windowDays = days.slice(-(sliceLen + 7 - firstSun));
+        const alignIdx = windowDays.findIndex(d => d?.date && new Date(d.date + 'T00:00:00Z').getUTCDay() === 0);
+        if (alignIdx >= 0) windowDays = windowDays.slice(alignIdx, alignIdx + sliceLen);
+      }
+
+      windowDays.forEach(day => {
+        const level = Math.max(0, Math.min(4, Number(day?.level) || 0));
+        const count = Number(day?.count) || 0;
+        const date = String(day?.date || '');
+        const cell = el('button', 'gh-cell');
+        cell.type = 'button';
+        cell.dataset.level = String(level);
+        cell.setAttribute('aria-label', `${date}: ${count} contributions`);
+        const showDay = () => { readoutEl.textContent = `${date} — ${count} contributions`; };
+        const resetDay = () => { readoutEl.textContent = defaultReadout; };
+        cell.addEventListener('mouseenter', showDay);
+        cell.addEventListener('focus', showDay);
+        cell.addEventListener('mouseleave', resetDay);
+        cell.addEventListener('blur', resetDay);
+        heatmapEl.append(cell);
+      });
+
+      const reposListEl = document.getElementById('gh-repos-list');
+      reposListEl.replaceChildren();
+      repos.slice(0, 8).forEach(repo => {
+        const item = el('div', 'gh-item');
+        const top = el('div', 'gh-item-top');
+        const nameUrl = isSafeHttpUrl(repo.html_url) ? repo.html_url : 'https://github.com/demiralpdev';
+        const link = el('a', 'gh-item-link', repo.name || 'repo');
+        link.href = nameUrl;
+        link.target = '_blank';
+        link.rel = 'noreferrer';
+
+        const meta = el('div', 'gh-item-meta');
+        if (repo.language) meta.append(el('span', '', repo.language));
+        meta.append(el('span', '', `★${repo.stargazers_count ?? 0}`));
+        if (repo.pushed_at) meta.append(el('span', '', formatRelTime(repo.pushed_at)));
+        top.append(link, meta);
+        item.append(top);
+
+        if (repo.description) item.append(el('p', 'gh-item-desc', repo.description));
+        if (isSafeHttpUrl(repo.homepage)) {
+          const liveLink = el('a', 'gh-live-link', `[ LIVE ↗ ${repo.homepage.replace(/^https?:\/\//, '').replace(/\/$/, '')} ]`);
+          liveLink.href = repo.homepage;
+          liveLink.target = '_blank';
+          liveLink.rel = 'noreferrer';
+          item.append(liveLink);
+        }
+        reposListEl.append(item);
+      });
+
+      const commitsListEl = document.getElementById('gh-commits-list');
+      commitsListEl.replaceChildren();
+      commits.slice(0, 8).forEach(c => {
+        const item = el('div', 'gh-item');
+        const top = el('div', 'gh-item-top');
+        const left = el('div', 'gh-item-meta');
+        const shaLink = el('a', 'gh-sha', c.sha || 'commit');
+        shaLink.href = isSafeHttpUrl(c.url) ? c.url : 'https://github.com/demiralpdev';
+        shaLink.target = '_blank';
+        shaLink.rel = 'noreferrer';
+        left.append(shaLink, el('span', '', c.repo || ''));
+        top.append(left, el('span', 'gh-item-meta', formatRelTime(c.date)));
+        item.append(top, el('p', 'gh-commit-msg', c.msg || ''));
+        commitsListEl.append(item);
+      });
+    };
+
+    const loadGithubData = async () => {
+      if (githubLoaded) return;
+      githubLoaded = true;
+
+      try {
+        const raw = window.sessionStorage.getItem(GH_CACHE_KEY);
+        if (raw) {
+          const cached = JSON.parse(raw);
+          if (cached && Date.now() - cached.ts < GH_CACHE_TTL && cached.data) {
+            renderGithubData(cached.data, '[ CACHED ]');
+            return;
+          }
+        }
+      } catch {}
+
+      try {
+        const [userRes, reposRes, contribsRes] = await Promise.all([
+          fetch('https://api.github.com/users/demiralpdev'),
+          fetch('https://api.github.com/users/demiralpdev/repos?sort=pushed&per_page=10'),
+          fetch('https://github-contributions-api.jogruber.de/v4/demiralpdev?y=last').catch(() => null)
+        ]);
+        if (!userRes.ok || !reposRes.ok) throw new Error('GitHub API unavailable');
+
+        const [user, allRepos] = await Promise.all([userRes.json(), reposRes.json()]);
+        const repos = (Array.isArray(allRepos) ? allRepos : []).filter(r => r && r.size > 0);
+        const contribs = contribsRes && contribsRes.ok ? await contribsRes.json() : GH_FALLBACK.contribs;
+
+        const commitBatches = await Promise.all(
+          repos.slice(0, 4).map(r =>
+            fetch(`https://api.github.com/repos/demiralpdev/${encodeURIComponent(r.name)}/commits?per_page=4`)
+              .then(res => (res.ok ? res.json() : []))
+              .then(list => (Array.isArray(list) ? list : []).map(c => ({
+                sha: String(c?.sha || '').slice(0, 7),
+                repo: r.name,
+                msg: String(c?.commit?.message || '').split('\n')[0],
+                date: c?.commit?.author?.date || '',
+                url: c?.html_url || ''
+              })))
+              .catch(() => [])
+          )
+        );
+
+        const commits = commitBatches
+          .flat()
+          .sort((a, b) => Date.parse(b.date) - Date.parse(a.date))
+          .slice(0, 8);
+
+        const payload = { user, repos, commits: commits.length ? commits : GH_FALLBACK.commits, contribs };
+        try {
+          window.sessionStorage.setItem(GH_CACHE_KEY, JSON.stringify({ ts: Date.now(), data: payload }));
+        } catch {}
+        renderGithubData(payload, '[ LIVE ]');
+      } catch {
+        renderGithubData(GH_FALLBACK, '[ OFFLINE_CACHE ]');
+      }
+    };
+
+    const setView = (view, opts = {}) => {
+      const nextView = view === 'projects' || view === 'github' ? view : 'home';
+      currentView = nextView;
+      shell.dataset.view = nextView;
+
+      nav.querySelectorAll('a[data-view]').forEach(link => {
+        const active = link.dataset.view === nextView;
+        link.classList.toggle('is-active', active);
+        if (active) link.setAttribute('aria-current', 'page');
+        else link.removeAttribute('aria-current');
+      });
+
+      if (nextView === 'home') {
+        stagePanel.hidden = true;
+        viewProjects.hidden = true;
+        viewGithub.hidden = true;
+        if (previewTimer) {
+          window.clearTimeout(previewTimer);
+          previewTimer = null;
+        }
+        previewFrameEl.src = 'about:blank';
+        if (heroVideo && heroVideo.paused) heroVideo.play().catch(() => {});
+      } else {
+        if (heroVideo && !heroVideo.paused) heroVideo.pause();
+        stagePanel.hidden = false;
+        viewProjects.hidden = nextView !== 'projects';
+        viewGithub.hidden = nextView !== 'github';
+        if (nextView === 'projects') {
+          selectProject(opts.projectId || activeProjectId, true);
+        } else {
+          if (previewTimer) {
+            window.clearTimeout(previewTimer);
+            previewTimer = null;
+          }
+          previewFrameEl.src = 'about:blank';
+          loadGithubData();
+        }
+      }
+
+      if (opts.syncHash !== false) {
+        const targetHash = `#${nextView}`;
+        if (window.location.hash !== targetHash) {
+          window.history.replaceState(null, '', targetHash);
+        }
+      }
+      closeMobileMenu();
+    };
+
+    renderProjectCards();
+
+    nav.querySelectorAll('a[data-view]').forEach(link => {
+      link.addEventListener('click', e => {
+        e.preventDefault();
+        setView(link.dataset.view);
+      });
+    });
+
+    document.querySelectorAll('.project-row[data-project]').forEach(row => {
+      row.addEventListener('click', e => {
+        if (!e.metaKey && !e.ctrlKey && !e.shiftKey && !e.altKey && e.button === 0) {
+          e.preventDefault();
+          setView('projects', { projectId: row.dataset.project });
+        }
+      });
+    });
+
+    document.querySelectorAll('[data-close-stage]').forEach(btn => {
+      btn.addEventListener('click', () => setView('home'));
+    });
+
+    window.addEventListener('keydown', e => {
+      if (e.key === 'Escape' && currentView !== 'home') setView('home');
+    });
+
+    const syncFromHash = () => {
+      const hashView = window.location.hash.slice(1);
+      if (hashView === 'projects' || hashView === 'github') {
+        setView(hashView, { syncHash: false });
+      } else if (currentView !== 'home') {
+        setView('home', { syncHash: false });
+      }
+    };
+    window.addEventListener('hashchange', syncFromHash);
+    syncFromHash();
+  </script>
+</body>
+</html>

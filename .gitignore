@@ -1,0 +1,8 @@
+
+# Local API credentials — never publish these
+googleaikey.txt
+.env
+.env.*
+.serena/
+.DS_Store
+
