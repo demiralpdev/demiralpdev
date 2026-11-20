@@ -1,11 +1,12 @@
 <div align="center">
 
 ```text
- ____  _____ __  __ ___ ____      _     _     ____  _______     __
-|  _ \| ____|  \/  |_ _|  _ \    / \   | |   |  _ \| ____\ \   / /
-| | | |  _| | |\/| || || |_) |  / _ \  | |   | |_) |  _|  \ \ / / 
-| |_| | |___| |  | || ||  _ <  / ___ \ | |___|  __/| |___  \ V /  
-|____/|_____|_|  |_|___|_| \_\/_/   \_\|_____|_|   |_____|  \_/   
+██████╗ ███████╗███╗   ███╗██████╗  █████╗ ██╗     ██████╗ ██████╗ ███████╗██╗   ██╗
+██╔══██╗██╔════╝████╗ ████║██╔══██╗██╔══██╗██║     ██╔══██╗██╔══██╗██╔════╝██║   ██║
+██║  ██║█████╗  ██╔████╔██║██████╔╝███████║██║     ██████╔╝██║  ██║█████╗  ██║   ██║
+██║  ██║██╔══╝  ██║╚██╔╝██║██╔══██╗██╔══██║██║     ██╔═══╝ ██║  ██║██╔══╝  ╚██╗ ██╔╝
+██████╔╝███████╗██║ ╚═╝ ██║██║  ██║██║  ██║███████╗██║     ██████╔╝███████╗ ╚████╔╝ 
+╚═════╝ ╚══════╝╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚═╝     ╚═════╝ ╚══════╝  ╚═══╝  
 ```
 
 ### Creative Developer & Cyber-Architect • AI Builder
@@ -38,10 +39,16 @@ Skills  : Android Studio • C# • .NET • MySQL • Python • JavaScript •
 
 <div align="center">
 
-```bash
-$ ping -c 1 demiralpdev.tech
-PING demiralpdev.tech: 64 bytes -- [STATUS: READY]
-```
+<img src="https://img.shields.io/badge/Android%20Studio-080808?style=flat-square&logo=androidstudio&logoColor=3DDC84" alt="Android Studio" />
+<img src="https://img.shields.io/badge/C%23-080808?style=flat-square&logo=csharp&logoColor=9B4993" alt="C#" />
+<img src="https://img.shields.io/badge/.NET-080808?style=flat-square&logo=dotnet&logoColor=512BD4" alt=".NET" />
+<img src="https://img.shields.io/badge/MySQL-080808?style=flat-square&logo=mysql&logoColor=4479A1" alt="MySQL" />
+<img src="https://img.shields.io/badge/Python-080808?style=flat-square&logo=python&logoColor=3776AB" alt="Python" />
+<img src="https://img.shields.io/badge/JavaScript-080808?style=flat-square&logo=javascript&logoColor=F7DF1E" alt="JavaScript" />
+<img src="https://img.shields.io/badge/HTML5-080808?style=flat-square&logo=html5&logoColor=E34F26" alt="HTML5" />
+<img src="https://img.shields.io/badge/CSS3-080808?style=flat-square&logo=css3&logoColor=1572B6" alt="CSS3" />
+
+<br/><br/>
 
 **[🌐 demiralpdev.tech](https://demiralpdev.tech)** • **[✉️ info@demiralpdev.tech](mailto:info@demiralpdev.tech)**
 
