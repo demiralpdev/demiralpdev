@@ -23,40 +23,8 @@
 $ whoami
 Name    : DEMİRALP (Demir Alp Gündoğmuş)
 Role    : Creative Developer & AI Builder
-Origin  : Istanbul, TR (41.0082° N, 28.9784° E)
-Focus   : High-Performance Systems, AI Compression & Modern Full-Stack
+Skills  : Android Studio • C# • .NET • MySQL • Python • JavaScript • HTML • CSS
 ```
-
----
-
-### 🛠️ Tech Stack & Skills
-
-```bash
-$ cat skills.json
-```
-
-| Domain | Technologies |
-| :--- | :--- |
-| **Languages & Core** | `Python` • `C#` • `JavaScript` • `HTML5` • `CSS3` |
-| **Frameworks & Runtimes** | `.NET` • `Android Studio` • `Node.js` |
-| **Database & Storage** | `MySQL` • Relational Modeling & Query Optimization |
-| **AI & Systems** | LLM Quantization / Pruning • Edge Inference • GGUF Architecture |
-
-<br/>
-
-<div align="center">
-
-<!-- Tech Badges -->
-<img src="https://img.shields.io/badge/Android%20Studio-080808?style=for-the-badge&logo=androidstudio&logoColor=3DDC84" alt="Android Studio" />
-<img src="https://img.shields.io/badge/C%23-080808?style=for-the-badge&logo=csharp&logoColor=9B4993" alt="C#" />
-<img src="https://img.shields.io/badge/.NET-080808?style=for-the-badge&logo=dotnet&logoColor=512BD4" alt=".NET" />
-<img src="https://img.shields.io/badge/MySQL-080808?style=for-the-badge&logo=mysql&logoColor=4479A1" alt="MySQL" />
-<img src="https://img.shields.io/badge/Python-080808?style=for-the-badge&logo=python&logoColor=3776AB" alt="Python" />
-<img src="https://img.shields.io/badge/JavaScript-080808?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JavaScript" />
-<img src="https://img.shields.io/badge/HTML5-080808?style=for-the-badge&logo=html5&logoColor=E34F26" alt="HTML5" />
-<img src="https://img.shields.io/badge/CSS3-080808?style=for-the-badge&logo=css3&logoColor=1572B6" alt="CSS3" />
-
-</div>
 
 ---
 
