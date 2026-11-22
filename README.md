@@ -20,7 +20,7 @@ Skills  : Android Studio • C# • .NET • MySQL • Python • JavaScript •
 
 ### ⚡ Featured Projects
 
-- 🧠 **[Caphlon](https://caphlon.dev)** — 4.5 GiB GGUF build of Qwen 3.8 27B running locally on 8 GB RAM.
+- 🧠 **[Caphlon](https://caphlon.dev)** — 4.5 GB GGUF build of Qwen 3.8 27B running locally on 8 GB RAM.
 - 🔐 **[.RISE](https://riseproof.me)** — Cryptographic proof of origin (.rise / .rvid) sealed at capture time.
 - 📊 **[GPU Pusula / 2elAnaliz](https://2elanaliz-panel.vercel.app)** — Real-time secondary GPU market analysis and value index.
 
