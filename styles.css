@@ -191,7 +191,7 @@ button {
 }
 
 .wordmark-graphic {
-  background: url('assets/wordmarks/demiralpdev-block.png') left center / contain no-repeat;
+  background: url('assets/wordmarks/demiralpdev-block.png?v=20261128') left center / contain no-repeat;
   background-color: transparent;
   border: 0;
   display: block;
