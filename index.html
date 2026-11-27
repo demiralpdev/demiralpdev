@@ -13,18 +13,16 @@
 </head>
 <body>
   <main class="site-shell" id="home" data-view="home">
-    <video class="hero-video" autoplay muted loop playsinline preload="metadata" poster="assets/video/great-wave-poster.jpg" aria-hidden="true">
-      <source src="assets/video/great-wave-kanagawa.mp4" type="video/mp4" />
-    </video>
-    <div class="video-shade" aria-hidden="true"></div>
-    <div class="video-frame" aria-hidden="true"></div>
-    <div class="scanlines" aria-hidden="true"></div>
-    <div class="wave-ascii" aria-hidden="true"><span>&lt;&lt;&lt;◇◇&gt;&gt;&gt;</span><span>&lt;o&gt;&lt;o&gt;&lt;&gt;</span><span>&lt;&lt;◇&gt;&gt;</span></div>
-    <div class="wave-ascii wave-ascii-right" aria-hidden="true"><span>&lt;&lt;&lt;◇&gt;&gt;&gt;</span><span>&lt;o&gt;&lt;&gt;</span></div>
-    <div class="wave-bubbles" aria-hidden="true"><i>o</i><i>°</i><i>0</i><i>o</i></div>
-    <img class="sea-floor" src="assets/video/coral-reef-overlay.png" alt="" aria-hidden="true" />
+    <div class="hero-media" aria-hidden="true">
+      <video class="hero-video" autoplay muted loop playsinline preload="metadata" poster="assets/video/great-wave-poster.jpg">
+        <source src="assets/video/great-wave-kanagawa.mp4" type="video/mp4" />
+      </video>
+      <div class="video-shade"></div>
+      <div class="video-frame"></div>
+    </div>
 
     <header class="topbar">
+      <span class="topbar-brand" aria-hidden="true">demiralpdev.tech</span>
       <nav class="nav" id="site-nav" aria-label="Ana menü">
         <a href="#home" data-view="home" class="is-active" aria-current="page"><span>[</span> HOME <span>]</span></a>
         <a href="#projects" data-view="projects"><span>[</span> PROJECTS <span>]</span></a>
@@ -34,22 +32,21 @@
       <button class="menu-toggle" aria-label="Menüyü aç" aria-expanded="false" aria-controls="site-nav"><i></i><i></i></button>
     </header>
 
-    <div class="top-readout" aria-hidden="true">
-      <span>SYS_LOAD: <b>CALM</b></span><span>DEPTH: 400m</span><span>SEA_PRESSURE: 2.1 ATM</span>
-    </div>
-
     <section class="console-panel" aria-labelledby="hero-title">
       <div class="console-heading">
         <div class="wordmark-wrap">
-          <h1 id="hero-title" class="wordmark"><span class="sr-only">DEMIRALPDEV</span><img class="wordmark-variant active" src="assets/wordmarks/demiralpdev-scanline.png" alt="" /><img class="wordmark-variant block-style" src="assets/wordmarks/demiralpdev-block.png" alt="" hidden /><img class="wordmark-variant" src="assets/wordmarks/demiralpdev-outline.png" alt="" hidden /></h1>
-          <div class="identity-meta"><p class="domain-line">demiralpdev.tech</p><div class="build-info"><span>[ DEV_ENV_v1.0 ]</span><span>COORD: 41.0082° N, 28.9784° E</span></div></div>
+          <h1 id="hero-title" class="wordmark">
+            <span class="sr-only">DEMIRALPDEV</span>
+            <span class="wordmark-graphic" role="presentation" aria-hidden="true"></span>
+          </h1>
+          <div class="identity-meta"><p class="domain-line">demiralpdev.tech</p></div>
         </div>
       </div>
 
       <div class="terminal-block">
         <div class="terminal-line"><span>$ whoami</span><span class="online">[STATUS: ONLINE]</span></div>
         <p>Name: <strong>DEMİRALP</strong></p>
-        <p>Role: <strong>Creative Developer &amp; Cyber-ArchitecT</strong></p>
+        <p>Role: <strong>Creative Developer &amp; Cyber-Architect</strong></p>
       </div>
 
       <div class="terminal-block contact-block">
@@ -62,25 +59,15 @@
         <p class="command">$ ls /projects</p>
         <a class="project-row" href="https://riseproof.me" target="_blank" rel="noreferrer" data-project="riseproof"><span>– riseproof.me (Cryptographic CLI)</span><b>[ACTIVE]</b></a>
         <a class="project-row" href="https://caphlon.dev" target="_blank" rel="noreferrer" data-project="caphlon"><span>– caphlon.dev (Llama edge CPU)</span><b>[ACTIVE]</b></a>
+        <a class="project-row" href="https://demiralpdev.github.io/promnthub/" target="_blank" rel="noreferrer" data-project="promnthub"><span>– promnthub (12k AI prompts)</span><b>[ACTIVE]</b></a>
         <p class="prompt-line">$ <span class="cursor">_</span></p>
-      </div>
-
-      <div class="terminal-graph" aria-hidden="true">
-        <svg viewBox="0 0 760 115" preserveAspectRatio="none">
-          <defs><pattern id="graph-dots" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(12)"><circle cx="2" cy="2" r="1.1" fill="#d0d0d0" fill-opacity=".56"/><circle cx="9" cy="5" r=".65" fill="#d0d0d0" fill-opacity=".3"/><circle cx="5" cy="10" r="1.35" fill="#d0d0d0" fill-opacity=".42"/></pattern></defs>
-          <g class="graph-grid"><path d="M0 20H760M0 45H760M0 70H760M0 95H760M50 0V115M100 0V115M150 0V115M200 0V115M250 0V115M300 0V115M350 0V115M400 0V115M450 0V115M500 0V115M550 0V115M600 0V115M650 0V115M700 0V115" /></g>
-          <path class="graph-wave" d="M0 75 15 73 28 77 43 71 55 75 69 68 82 73 95 64 107 70 119 67 132 79 145 73 157 76 171 43 183 83 197 74 210 78 225 69 237 72 251 59 264 68 276 31 290 80 304 70 317 74 330 67 344 73 356 52 370 70 384 63 398 75 411 68 425 73 440 58" />
-          <path class="graph-hill" d="M590 115 620 91 650 77 680 57 710 39 760 12V115Z" />
-          <circle class="graph-bubble" cx="676" cy="72" r="4"/><circle class="graph-bubble" cx="700" cy="48" r="3"/><circle class="graph-bubble" cx="720" cy="67" r="5"/><circle class="graph-bubble" cx="741" cy="42" r="2.5"/><circle class="graph-bubble" cx="744" cy="91" r="3.5"/>
-          <text x="4" y="12">Y</text><text x="18" y="108">L</text><text x="168" y="37">t.j</text><text x="198" y="107">/ V.9,2.3</text><text x="385" y="108">-1.110.00</text>
-        </svg>
       </div>
     </section>
 
     <section class="stage-panel" id="stage-panel" hidden aria-live="polite">
       <div class="stage-view" id="view-projects" hidden>
         <div class="stage-head">
-          <div class="stage-title"><span>$ ls /projects --preview</span><span class="stage-badge">[ 3 DEPLOYED ]</span></div>
+          <div class="stage-title"><span>$ ls /projects --preview</span><span class="stage-badge">[ 4 DEPLOYED ]</span></div>
           <div class="stage-actions"><button type="button" class="stage-close" data-close-stage>[ × HOME ]</button></div>
         </div>
         <div class="project-cards" id="project-cards"></div>
@@ -143,22 +130,13 @@
       </div>
     </section>
 
-    <footer class="hero-footer"><span class="footer-prompt">$ <i>_</i></span><span class="footer-status"><time id="system-clock">13:35:08</time><b>|</b> SYS_LOAD <b>|</b> SYS_LOAD <b>|</b> PONG_ <b>|</b> READY_</span></footer>
+    <footer class="hero-footer">
+      <span class="footer-prompt">demiralpdev.tech</span>
+      <span class="footer-status"><time id="system-clock">00:00:00</time></span>
+    </footer>
   </main>
 
   <script>
-    const wordmarkVariants = [...document.querySelectorAll('.wordmark-variant')];
-    let currentStyle = 0;
-    window.setInterval(() => {
-      let nextStyle;
-      do { nextStyle = Math.floor(Math.random() * wordmarkVariants.length); } while (nextStyle === currentStyle);
-      wordmarkVariants[currentStyle].classList.remove('active');
-      wordmarkVariants[currentStyle].hidden = true;
-      wordmarkVariants[nextStyle].hidden = false;
-      wordmarkVariants[nextStyle].classList.add('active');
-      currentStyle = nextStyle;
-    }, 2600);
-
     const clock = document.getElementById('system-clock');
     const updateClock = () => { clock.textContent = new Date().toLocaleTimeString('en-GB', { hour12: false }); };
     updateClock();
@@ -204,6 +182,15 @@
         desc: 'GPU Pusula — ikinci el ekran kartı fiyat ve alınabilirlik analiz paneli',
         liveUrl: 'https://2elanaliz-panel.vercel.app',
         repoUrl: 'https://github.com/demiralpdev/2elAnaliz'
+      },
+      {
+        id: 'promnthub',
+        name: 'promnthub',
+        repoName: 'promnthub',
+        tag: 'HTML / GitHub Pages',
+        desc: 'PromptHub — 12,000+ ready-to-use AI prompts. Copy. Paste. Done.',
+        liveUrl: 'https://demiralpdev.github.io/promnthub/',
+        repoUrl: 'https://github.com/demiralpdev/promnthub'
       }
     ];
 

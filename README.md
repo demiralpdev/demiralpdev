@@ -23,6 +23,7 @@ Skills  : Android Studio • C# • .NET • MySQL • Python • JavaScript •
 - 🧠 **[Caphlon](https://caphlon.dev)** — 4.5 GB GGUF build of Qwen 3.8 27B running locally on 8 GB RAM.
 - 🔐 **[.RISE](https://riseproof.me)** — Cryptographic proof of origin (.rise / .rvid) sealed at capture time.
 - 📊 **[GPU Pusula / 2elAnaliz](https://2elanaliz-panel.vercel.app)** — Real-time secondary GPU market analysis and value index.
+- 📚 **[PromptHub](https://demiralpdev.github.io/promnthub/)** — 12,000+ ready-to-use AI prompts. Copy. Paste. Done.
 
 <div align="center">
 
