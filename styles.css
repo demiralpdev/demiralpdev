@@ -844,12 +844,18 @@ button {
 }
 
 @media (max-width: 760px) {
-  html,
+  html {
+    height: auto;
+    overflow-x: hidden;
+    overflow-y: auto;
+    overscroll-behavior: auto;
+  }
+
   body {
     height: auto;
     min-height: 100%;
-    overflow-x: hidden;
-    overflow-y: auto;
+    overflow: visible;
+    overscroll-behavior: auto;
   }
 
   .site-shell {
@@ -857,8 +863,11 @@ button {
     flex-direction: column;
     height: auto;
     min-height: 100dvh;
-    overflow-x: hidden;
-    overflow-y: visible;
+    overflow: visible;
+  }
+
+  .preview-frame {
+    pointer-events: none;
   }
 
   .topbar {
